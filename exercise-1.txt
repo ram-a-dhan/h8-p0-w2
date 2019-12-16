@@ -5,20 +5,29 @@ declare and assign ACCEL = 2
 declare and assign FORCE = MASS * ACCEL
 print FORCE
 
+
+
 2. Leap Year
 
 read and save YEAR
 IF (YEAR % 4 == 0) AND (YEAR % 100 != 0) 
     THEN PRINT YEAR is Leap Year
-ELSE IF (YEAR % 4 == 0) AND (YEAR % 100 == 0) AND (YEAR % 400 == 0)
+ELSEIF (YEAR % 4 == 0) AND (YEAR % 100 == 0) AND (YEAR % 400 == 0)
     THEN PRINT YEAR is a Leap Year
 ELSE 
     PRINT YEAR is not a Leap Year
 
+
+
 3. laundry Day
 
-declare CLOTHES and assign 0 to it
-while CLOTHES
+declare and assign CLOTHES = 0
+WHILE (CLOTHES <= 20)
+    DO CLOTHES++
+    DO PRINT CLOTHES
+ENDWHILE
+
+
 
 4. Nail Inspection
 
