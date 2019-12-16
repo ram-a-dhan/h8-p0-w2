@@ -24,7 +24,7 @@ ELSE
 declare and assign CLOTHES = 0
 WHILE (CLOTHES < 20)
     CLOTHES++
-    PRINT CLOTHES
+    PRINT clothes number CLOTHES
 ENDWHILE
 
 
@@ -35,8 +35,8 @@ read and save PUPILNAILS array
 declare PUPIL
 FOR (PUPIL=1 and PUPIL<=40 and PUPIL++)
     IF (PUPILNAILS[PUPIL-1] == dirty)
-        PRINT PUPIL is punished
+        PRINT pupil number PUPIL is punished
     ELSE
-        PRINT PUPIL is praised
+        PRINT pupil number PUPIL is praised
     ENDIF
 ENDFOR
