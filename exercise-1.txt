@@ -40,3 +40,5 @@ FOR (PUPIL=1 and PUPIL<=40 and PUPIL++)
         PRINT pupil number PUPIL is praised
     ENDIF
 ENDFOR
+
+
