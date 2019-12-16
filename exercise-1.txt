@@ -1,13 +1,19 @@
 1. Newton Second Law
 
-1.1. Declare Mass and assign 600 to it
-1.2. Declare Accel and assign 2 to it
-1.3. Declare Force and assign Mass multiplied by Accel to it
-1.4. Print Force
+declare MASS and assign 600 to it
+declare ACCEL and assign 2 to it
+declare FORCE and assign MASS multiplied by ACCEL to it
+print FORCE
 
 2. Leap Year
 
-
+read and save YEAR
+if YEAR % 4 is equal to 0 AND YEAR % 100 is NOT equal to 0 
+    then print YEAR is Leap Year
+else if YEAR % 4 is equal to 0 and YEAR % 100 is equal to 0 and YEAR % 400 is equal to 0
+    then print YEAR is Leap Year
+else 
+    print YEAR is not Leap Year
 
 3. laundry Day
 
