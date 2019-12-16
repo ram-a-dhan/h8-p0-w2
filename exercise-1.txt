@@ -11,9 +11,9 @@ print FORCE
 
 read and save YEAR
 IF (YEAR % 4 == 0) AND (YEAR % 100 != 0) 
-    THEN PRINT YEAR is Leap Year
+    PRINT YEAR is Leap Year
 ELSEIF (YEAR % 4 == 0) AND (YEAR % 100 == 0) AND (YEAR % 400 == 0)
-    THEN PRINT YEAR is a Leap Year
+    PRINT YEAR is a Leap Year
 ELSE 
     PRINT YEAR is not a Leap Year
 
@@ -22,13 +22,21 @@ ELSE
 3. laundry Day
 
 declare and assign CLOTHES = 0
-WHILE (CLOTHES <= 20)
-    DO CLOTHES++
-    DO PRINT CLOTHES
+WHILE (CLOTHES < 20)
+    CLOTHES++
+    PRINT CLOTHES
 ENDWHILE
 
 
 
 4. Nail Inspection
 
-
+read and save PUPILNAILS array
+declare PUPIL
+FOR (PUPIL=1 and PUPIL<=40 and PUPIL++)
+    IF (PUPILNAILS[PUPIL-1] == dirty)
+        PRINT PUPIL is punished
+    ELSE
+        PRINT PUPIL is praised
+    ENDIF
+ENDFOR
