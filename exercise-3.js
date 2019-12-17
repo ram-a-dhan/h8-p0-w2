@@ -1,7 +1,7 @@
 // PROXYTIA
 
-var nama = 'xXx_PussySlayer69_xXx';
-var peran = 'Penyihir';
+var nama = 'Baja Hitam';
+var peran = 'Ksatria';
 
 if (nama === '') {
     console.log('Nama harus diisi!');
