@@ -44,7 +44,7 @@ function lostNumbers(first, second, third) {
 	}
 	// return nums[nums.length-1];
 	// loop to find internumbers but not the mid number
-	var x = '';
+	var x = [];
 	for (var k = nums[0]; k <= nums[nums.length-1]; k++) {
 		switch (k) {
 			case nums[0]:
@@ -54,11 +54,11 @@ function lostNumbers(first, second, third) {
 			case nums[2]:
 				break;
 			default:
-				x += k + ' ';
+				x.push(k);
 			break;
 		}
 	}
-	if (x === '') {
+	if (x.length === 0) {
 		return 'Tidak ada nangka sama sekali! :(';
 	} else {
 		return x;
