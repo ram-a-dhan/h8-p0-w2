@@ -22,11 +22,11 @@ RULES
 */
 
 //Pseudocode
-//	find min, mid, max
+//	find min, mid, max with manual array bubble sort
 //	FOR min <= X <= max
 //  	SWITCH X
-//  		case (min, mid, max)	--> DON'T PRINT
-//  		default					--> PRINT
+//  		case (min, mid, max)	--> don't add to lost numbers
+//  		default					--> add to lost numbers
 
 function lostNumbers(first, second, third) {
 
